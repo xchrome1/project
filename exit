@@ -1,0 +1,23 @@
+[33mcommit c38b8851dbe3a871be2b26a3f89f2b089f93e768[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Alvin Guambor <vino71997@gmail.com>
+Date:   Fri Mar 3 15:28:23 2023 +0800
+
+    reverted to commitc6860c6c40162449ac6017a3153a84ef7798f7d1
+
+[33mcommit 42d8e120b86d752d426d129d6cc38ee9984f0967[m
+Author: Alvin Guambor <vino71997@gmail.com>
+Date:   Fri Mar 3 15:19:09 2023 +0800
+
+    created file1.txt and changed line 3 in file.txt
+
+[33mcommit c6860c6c40162449ac6017a3153a84ef7798f7d1[m
+Author: Alvin Guambor <vino71997@gmail.com>
+Date:   Fri Mar 3 15:15:12 2023 +0800
+
+    created file.txt
+
+[33mcommit f93b2a2aa191c224c7c650b7898b5993646931bf[m
+Author: Alvin Guambor <vino71997@gmail.com>
+Date:   Fri Mar 3 15:12:37 2023 +0800
+
+    created file.txt
