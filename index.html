@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Alvin Guambor | Support Programmer Supervisor — Portfolio</title>
+<meta name="description" content="Alvin Guambor — Support Programmer Supervisor, Quezon City PH. 6+ years across LIS, BBIS & Histopath hospital systems. React, Node.js, PostgreSQL, Python, Docker, Linux, LAN/WAN." />
+<meta name="theme-color" content="#08090d" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Alvin Guambor | Support Programmer Supervisor" />
+<meta property="og:description" content="6+ years keeping hospital systems (LIS, BBIS, Histopath) online. React · Node.js · PostgreSQL · Python · Docker · Linux." />
+<meta property="og:image" content="profile.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="preloader">
+  <div class="load-grid" aria-hidden="true"></div>
+  <div class="code-rain" id="codeRain" aria-hidden="true"></div>
+  <div class="loader-inner">
+    <div class="loader-orbit"><div class="loader-logo">AG<span>.</span></div></div>
+    <div class="loader-pct"><span id="loadPct">0</span>%</div>
+    <div class="loader-bar"><span id="loadFill"></span></div>
+    <div class="loader-term mono" aria-hidden="true"><span class="prompt">ag@prod:~$</span> <span id="loadMsg">boot --wake-servers</span><span class="caret">▊</span></div>
+  </div>
+</div>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<canvas id="signalCanvas"></canvas>
+<div class="aurora" aria-hidden="true"><i></i><i></i></div>
+<div class="grain"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="brand magnetic" aria-label="Alvin Guambor — back to top"><img src="favicon.svg" alt="Alvin Guambor logo" class="brand-mark" /></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#expertise">EXPERTISE</a>
+    <a href="#work">PROJECTS</a>
+    <a href="#experience">EXPERIENCE</a>
+    <a href="#education">EDUCATION</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+</header>
+
+<main id="top">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><filter id="ag-sharpen"><feConvolveMatrix order="3" kernelMatrix="0 -0.25 0 -0.25 2 -0.25 0 -0.25 0"/></filter></defs></svg>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-text" aria-hidden="true">ALVIN</div>
+    <div class="hero-portrait" aria-hidden="true"><img src="profile.jpg" alt="" /></div>
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="kicker mono reveal"><span class="tag">◉ OPEN TO OPPORTUNITIES</span> SUPPORT OPS · v6.0 / LIVE</p>
+        <h1 class="hero-title"><span class="hero-name">Alvin Guambor</span><br><span class="hero-role">Support Programmer Supervisor</span></h1>
+        <p class="hero-sub reveal">BEHIND EVERY SYSTEM THAT NEVER SLEEPS — <strong>I KEEP IT UP</strong></p>
+        <div class="hero-actions reveal">
+          <a href="#work" class="btn primary magnetic"><span>View Key Projects ↓</span><small>WORK</small></a>
+          <a href="#contact" class="btn ghost magnetic"><span>Contact Signal →</span><small>MAIL</small></a>
+          <button type="button" class="btn ghost magnetic" id="cvBtn" title="Open my printable CV"><span>Download CV ⭳</span><small>PDF</small></button>
+        </div>
+        <div class="hero-badges reveal">
+          <div class="badge">✦ 6+ Years Hospital Systems</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats container">
+    <div class="stat reveal"><span class="num" data-count="6">0</span><span class="plus">+</span><p>Years<br>Experience</p></div>
+    <div class="stat reveal"><span class="num" data-count="5">0</span><p>Key<br>Projects</p></div>
+    <div class="stat reveal"><span class="num" data-count="3">0</span><p>Hospital<br>Systems</p></div>
+    <div class="stat reveal"><span class="num" data-count="4">0</span><p>Roles<br>2018—Present</p></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about container">
+    <p class="section-label mono reveal">01 — PROFESSIONAL SUMMARY</p>
+    <h2 class="big-line reveal">I keep critical hospital software <em>online</em>, and make it <em>better</em>.</h2>
+    <div class="about-grid">
+      <p class="reveal">Support Programmer Supervisor with 6+ years across the full software lifecycle — from Programmer at Peso Resources Development Corp. (2018–2019) to Technical Support Engineer / Programmer (2019–2022), Senior Programmer (2022–2024), and Support Team Lead at IT Easy Software Solutions Inc. (2024–present).</p>
+      <p class="reveal">Hands-on in analysis, design, development, testing and maintenance of hospital systems (LIS, BBIS, Histopath); Linux/Windows server administration; LAN/WAN and firewall configuration; and client-facing test planning and coordination. I lead support operations from incident triage to resolution while mentoring developers through code review.</p>
+    </div>
+  </section>
+
+  <!-- EXPERTISE -->
+  <section id="expertise" class="container">
+    <p class="section-label mono reveal">02 — CORE COMPETENCIES</p>
+    <div class="sec-head">
+      <h2 class="reveal">Full-stack support: code, servers, network.<br><span class="dim">The stack I use to diagnose fast, fix once, and keep production healthy.</span></h2>
+    </div>
+    <div class="chakra-grid">
+      <article class="chakra reveal"><span class="chakra-no">01 / FRONTEND</span><h3>Web Frontend</h3><p>JavaScript, HTML, CSS, React, Bootstrap, Tailwind, jQuery — responsive, print-ready UIs & report layouts.</p><div class="meter"><span style="--w:92%"></span></div><span class="mono pct">React · 92%</span></article>
+      <article class="chakra reveal"><span class="chakra-no">02 / BACKEND</span><h3>Backend & APIs</h3><p>Node.js, PHP, C#, .NET Core, REST APIs, HL7 — lab workflows, instrument interfacing, scheduling & SMS.</p><div class="meter"><span style="--w:90%"></span></div><span class="mono pct">Node / .NET · 90%</span></article>
+      <article class="chakra reveal"><span class="chakra-no">03 / DATA</span><h3>Databases & ETL</h3><p>MySQL, PostgreSQL, SQL, Pandas, ETL pipelines — AG ETL warehouse consolidating LIS/BBIS/Histopath.</p><div class="meter"><span style="--w:91%"></span></div><span class="mono pct">SQL · 91%</span></article>
+      <article class="chakra reveal"><span class="chakra-no">04 / DOMAIN</span><h3>Hospital Systems</h3><p>LIS, BBIS, Histopath — orders, specimen tracking, result validation, QC, blood-bank & pathology flows.</p><div class="meter"><span style="--w:96%"></span></div><span class="mono pct">Domain · 96%</span></article>
+      <article class="chakra reveal"><span class="chakra-no">05 / INFRA</span><h3>Servers & Network</h3><p>Linux, Windows Server, LAN/WAN, firewall, monitoring & backups — production efficiency ownership.</p><div class="meter"><span style="--w:89%"></span></div><span class="mono pct">Infra · 89%</span></article>
+      <article class="chakra reveal"><span class="chakra-no">06 / TOOLING</span><h3>Tools & Delivery</h3><p>Python, Shell, Docker, Git/GitHub, VS Code, Postman, CI/CD — diagnostics, deployment & release transfer.</p><div class="meter"><span style="--w:88%"></span></div><span class="mono pct">DevOps · 88%</span></article>
+      <article class="chakra reveal"><span class="chakra-no">07 / LEAD</span><h3>Support Leadership</h3><p>Task coordination, escalation, unit test plans & data mapping, mentoring via code review, client comms.</p><div class="meter"><span style="--w:94%"></span></div><span class="mono pct">Leadership · 94%</span></article>
+    </div>
+  </section>
+
+  <!-- WORK — horizontal scroll -->
+  <section id="work">
+    <div class="container">
+      <p class="section-label mono reveal">03 — KEY PROJECTS</p>
+      <h2 class="reveal">Systems running live in hospitals & clinics today.<span class="dim">Keep scrolling — each project slides in from the right.</span></h2>
+    </div>
+    <div class="hwrap" id="hwrap">
+      <div class="hsticky">
+        <div class="htrack" id="htrack">
+          <article class="hpanel">
+            <div class="hvisual v1"><span class="mono">PRJ-01 · LIS · FLAGSHIP</span><strong>Laboratory Information System</strong></div>
+            <div class="hinfo"><p class="mono hcat">● HOSPITAL SYSTEMS · 2024 — PRESENT</p><h3>Laboratory Information System</h3><p>End-to-end lab workflow: test orders, specimen tracking, result entry &amp; validation, QC and instrument interfacing for hospital laboratories.</p><div class="tags mono"><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>REST</span><span>HL7</span></div><a href="#cases" class="btn ghost hbtn">OPEN CASE STUDY ↗</a></div>
+          </article>
+          <article class="hpanel">
+            <div class="hvisual v2"><span class="mono">PRJ-02 · PYTHON · DATA</span><strong>Data Warehouse (AG ETL)</strong></div>
+            <div class="hinfo"><p class="mono hcat">● DATA PLATFORM · 2023 — PRESENT</p><h3>Data Warehouse (AG ETL)</h3><p>In-house ETL pipeline consolidating LIS, BBIS &amp; Histopath data into a warehouse for reporting, analytics and decision support.</p><div class="tags mono"><span>Python</span><span>PostgreSQL</span><span>Pandas</span><span>Docker</span></div><a href="#cases" class="btn ghost hbtn">OPEN CASE STUDY ↗</a></div>
+          </article>
+          <article class="hpanel">
+            <div class="hvisual v3"><span class="mono">PRJ-03 · REPORTS · PRINT</span><strong>Report Designer</strong></div>
+            <div class="hinfo"><p class="mono hcat">● REPORTING · 2022 — PRESENT</p><h3>Report Designer</h3><p>Customizable report template designer for lab results &amp; hospital forms — layout editing, print-ready output and PDF export.</p><div class="tags mono"><span>React</span><span>Node.js</span><span>SQL</span><span>PDF Export</span></div><a href="#contact" class="btn ghost hbtn">ASK ABOUT THIS ↗</a></div>
+          </article>
+          <article class="hpanel">
+            <div class="hvisual v4"><span class="mono">PRJ-04 · CLINIC · QUEUE + SMS</span><strong>Doctor Appointment</strong></div>
+            <div class="hinfo"><p class="mono hcat">● CLINIC OPS · 2021 — PRESENT</p><h3>Doctor Appointment</h3><p>Online appointment booking with doctor schedules, queue management and patient SMS notifications for clinics and hospitals.</p><div class="tags mono"><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>SMS Alerts</span></div><a href="#contact" class="btn ghost hbtn">ASK ABOUT THIS ↗</a></div>
+          </article>
+          <article class="hpanel">
+            <div class="hvisual v1"><span class="mono">PRJ-05 · INTERNAL · OPS TOOLKIT</span><strong>Advance Technical Tools</strong></div>
+            <div class="hinfo"><p class="mono hcat">● INTERNAL · 2020 — PRESENT</p><h3>Advance Technical Tools</h3><p>Internal monitoring, backup &amp; deployment toolkit plus diagnostics across LIS, BBIS and Histopath systems.</p><div class="tags mono"><span>Python</span><span>Linux</span><span>Docker</span><span>Shell</span></div><a href="#contact" class="btn ghost hbtn">ASK ABOUT THIS ↗</a></div>
+          </article>
+          <article class="hpanel">
+            <div class="hvisual v2"><span class="mono">PRJ-06 · SUPPORT · 24/7 OPS</span><strong>Production Support &amp; Infra</strong></div>
+            <div class="hinfo"><p class="mono hcat">● OPS · 2018 — PRESENT</p><h3>Production Support &amp; Infrastructure</h3><p>Incident triage → resolution, server installs, LAN/WAN &amp; firewall config, unit test plans and client release transfer.</p><div class="tags mono"><span>Linux</span><span>Windows</span><span>LAN/WAN</span><span>Firewall</span></div><a href="#contact" class="btn ghost hbtn">ASK ABOUT THIS ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE FILES -->
+  <section id="cases" class="container">
+    <p class="section-label mono reveal">03B — FIELD NOTES · CASE FILES</p>
+    <h2 class="reveal">Proof, not promises.<span class="dim">Two real engagements, told the way support work actually happens: symptom → diagnosis → fix → safeguard. Mock UI below is illustrative — real screenshots stay with the hospitals.</span></h2>
+
+    <article class="case reveal">
+      <div class="case-head">
+        <div>
+          <p class="mono case-kicker">CASE 01 · LIS · PRODUCTION INCIDENT</p>
+          <h3>Results stuck in the validation queue on a live morning shift</h3>
+        </div>
+        <div class="case-chips mono">
+          <span>◉ SAME-DAY RECOVERY</span><span>◉ QUEUE FULLY REPLAYED</span><span>◉ 0 RECURRENCE SINCE</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div class="mock" aria-hidden="true">
+          <div class="mock-bar"><i></i><i></i><i></i><span class="mono">lis · validation queue (illustrative)</span></div>
+          <div class="mock-row head mono"><span>SPECIMEN</span><span>TEST</span><span>STATUS</span></div>
+          <div class="mock-row"><span>SP-88412</span><span>CBC</span><span class="st ok">VALIDATED</span></div>
+          <div class="mock-row"><span>SP-88413</span><span>FBS</span><span class="st ok">VALIDATED</span></div>
+          <div class="mock-row hot"><span>SP-88414</span><span>Lipid</span><span class="st warn pulse-soft">RE-QUEUED ✓</span></div>
+          <div class="mock-row"><span>SP-88415</span><span>CBC</span><span class="st ok">VALIDATED</span></div>
+        </div>
+        <div class="case-tabs">
+          <div class="pills small" role="tablist">
+            <button type="button" class="pill active" data-tab="c1a" role="tab">Timeline</button>
+            <button type="button" class="pill" data-tab="c1b" role="tab">Root cause</button>
+            <button type="button" class="pill" data-tab="c1c" role="tab">Safeguards</button>
+          </div>
+          <div class="tabpane active" id="c1a"><p><strong>T+0:</strong> ward reports results not printing. <strong>T+20m:</strong> queue isolated to the instrument-interface service — LIS core untouched. <strong>T+1h:</strong> mapping drift corrected, queue replayed in order. <strong>Same shift:</strong> ward confirms printout, incident closed with client sign-off.</p></div>
+          <div class="tabpane" id="c1b"><p>Interface mapping had drifted from the analyzer's current output format, so valid results failed silent validation instead of raising an error. Classic "stuck, not crashed" — the worst kind, because nobody gets paged.</p></div>
+          <div class="tabpane" id="c1c"><p>Added a loud-validation guard (reject + alert instead of silent hold), a replay runbook, and a regression case in the unit test plan. No recurrence since deploy.</p></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case reveal">
+      <div class="case-head">
+        <div>
+          <p class="mono case-kicker">CASE 02 · DATA · INTERNAL BUILD</p>
+          <h3>Three systems, one warehouse: AG ETL</h3>
+        </div>
+        <div class="case-chips mono">
+          <span>◉ 3 SYSTEMS → 1 WAREHOUSE</span><span>◉ NIGHTLY AUTOMATED RUNS</span><span>◉ FEEDS REPORT DESIGNER</span>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div class="mock" aria-hidden="true">
+          <div class="mock-bar"><i></i><i></i><i></i><span class="mono">ag-etl · nightly run (illustrative)</span></div>
+          <div class="etl"><span>LIS</span><span>BBIS</span><span>HISTO</span><b>→</b><span class="wh">WAREHOUSE</span></div>
+          <div class="mock-log mono">✓ extract 3 sources · ✓ transform 214 rules · ✓ load 02:14 · ✓ report views refreshed</div>
+        </div>
+        <div class="case-body">
+          <p>Monthly reporting meant hand-consolidating LIS, BBIS and Histopath exports. I built a nightly Python/Pandas pipeline into PostgreSQL — one warehouse, one truth — which now powers the Report Designer and management analytics.</p>
+          <div class="tags mono"><span>Python</span><span>Pandas</span><span>PostgreSQL</span><span>Docker</span></div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="container">
+    <p class="section-label mono reveal">04 — EXPERIENCE · 2018 — PRESENT</p>
+    <h2 class="reveal">Six years, four roles, one trajectory: deeper ownership.</h2>
+    <div class="timeline">
+      <div class="t-item reveal"><span class="mono">Jul 2024 — Present</span><div><h3>Support Programmer Supervisor — IT Easy Software Solutions Inc., Quezon City</h3><p>Supervise the support team: task coordination, technical guidance &amp; issue escalation · Develop &amp; maintain live LIS/BBIS/Histopath code · Monitor production efficiency; manage Linux/Windows servers, LAN/WAN &amp; firewall · Coordinate unit test plans, test data &amp; client transfer.</p></div><span class="t-no mono">04</span></div>
+      <div class="t-item reveal"><span class="mono">Mar 2022 — Jul 2024</span><div><h3>Senior Programmer — IT Easy Software Solutions Inc., Quezon City</h3><p>Led new-feature development &amp; maintained existing codebases · Built unit test plans, managed test data &amp; data mapping with client · Owned project-issue identification, tracking &amp; resolution.</p></div><span class="t-no mono">03</span></div>
+      <div class="t-item reveal"><span class="mono">Jul 2019 — Mar 2022</span><div><h3>Technical Support Engineer / Programmer — IT Easy Software Solutions Inc., Quezon City</h3><p>Analyzed, designed, developed &amp; maintained application code · Built unit test plans; coordinated test files &amp; client transfer · Installed Linux/Windows servers; configured LAN/WAN, firewall &amp; servers.</p></div><span class="t-no mono">02</span></div>
+      <div class="t-item reveal"><span class="mono">Mar 2018 — May 2019</span><div><h3>Programmer — Peso Resources Development Corp., Quezon City</h3><p>Developed, implemented &amp; maintained application code · Built unit test plans &amp; managed test data with client · Maintained systems, shipped features &amp; resolved escalated issues.</p></div><span class="t-no mono">01</span></div>
+    </div>
+  </section>
+
+  <!-- COMPETENCIES + EDUCATION -->
+  <section id="education" class="container">
+    <p class="section-label mono reveal">05 — STACK & EDUCATION</p>
+    <h2 class="reveal">How I work: triage fast, communicate clearly, fix permanently.</h2>
+    <div class="slider reveal">
+      <div class="slides" id="slides">
+        <blockquote class="slide active">
+          <p class="role mono">OPERATING PRINCIPLE · 01</p>
+          <h3>Calm under pressure <span>— incident triage to resolution</span></h3>
+          <p class="quote">“Production is down? I isolate, communicate, fix, and verify — then harden it so it stays fixed.”</p>
+          <p class="foot mono">✦ Support supervision — task coordination, escalation & ownership</p>
+        </blockquote>
+        <blockquote class="slide">
+          <p class="role mono">OPERATING PRINCIPLE · 02</p>
+          <h3>Clear client communication <span>— test plans clients trust</span></h3>
+          <p class="quote">“Unit test plans, test data, data mapping and release transfer — clients always know what changed and why.”</p>
+          <p class="foot mono">✦ Client-facing delivery — test planning, data mapping, transfer</p>
+        </blockquote>
+        <blockquote class="slide">
+          <p class="role mono">OPERATING PRINCIPLE · 03</p>
+          <h3>Mentoring through code review <span>— teams that level up</span></h3>
+          <p class="quote">“I guide developers with technical direction and code review so the whole support team ships safer code.”</p>
+          <p class="foot mono">✦ Leadership — guidance, review & shared standards</p>
+        </blockquote>
+      </div>
+      <div class="slider-nav">
+        <button id="prevBtn" class="btn ghost">← Prev</button>
+        <span class="mono" id="slideCount">01 / 03</span>
+        <button id="nextBtn" class="btn ghost">Next →</button>
+      </div>
+    </div>
+    <div class="awards reveal">
+      <h3 class="mono">CORE COMPETENCIES — LANGUAGES · FRAMEWORKS · DATA · OPS</h3>
+      <div class="award-grid">
+        <div>✦ Languages<span>JavaScript, PHP, C#, Python, SQL, HTML, CSS</span></div>
+        <div>✦ Web & Frameworks<span>React, Node.js, .NET Core, Bootstrap, Tailwind, jQuery, REST, HL7</span></div>
+        <div>✦ Databases<span>MySQL, PostgreSQL</span></div>
+        <div>✦ Tools & Ops<span>Git, GitHub, Docker, Linux, VS Code, Postman, ETL, CI/CD, LAN/WAN, Firewall</span></div>
+      </div>
+    </div>
+    <div class="timeline" style="margin-top:2rem">
+      <div class="t-item reveal"><span class="mono">2014 – 2018</span><div><h3>Bachelor of Science in Information Technology — STI College Muñoz-EDSA</h3><p>Foundation across programming, databases, networks & systems.</p></div><span class="t-no mono">02</span></div>
+      <div class="t-item reveal"><span class="mono">2010 – 2014</span><div><h3>High School — New Era High School</h3><p>Quezon City, Philippines.</p></div><span class="t-no mono">01</span></div>
+    </div>
+  </section>
+
+  <!-- CONTACT — finale -->
+  <section id="contact" class="signal">
+    <div class="container finale">
+      <p class="section-label mono reveal">06 — CONTACT SIGNAL</p>
+      <h2 class="finale-title reveal" id="finaleTitle"><span class="chrome">LET'S</span><br><span class="blue">CONNECT</span></h2>
+      <div class="glass reveal">
+        <p>If you're looking for someone who keeps hospital systems <em>online 24/7</em>, let's connect.</p>
+        <button type="button" class="btn primary magnetic" id="connectBtn"><span class="btn-label">CONNECT ↓</span></button>
+        <div class="glass-quick mono"><a href="mailto:vino71997@gmail.com">vino71997@gmail.com</a><span>·</span><a href="tel:+639177092412">09177092412</a><span>·</span><span>reply &lt; 24h</span></div>
+      </div>
+    </div>
+    <div class="drawer" id="drawer">
+      <div class="container">
+      <p class="reveal dim signal-sub">Production issue, new feature, infra help, or a role — pick a channel. I reply within <strong>24 hours</strong>, urgent production issues first.</p>
+
+      <div class="contact-grid">
+        <!-- Direct channels -->
+        <aside class="contact-info reveal">
+          <div class="info-status mono"><span class="pulse"></span> RECEIVING · QUEZON CITY (PHT, UTC+8) · <span id="clock2">--:-- PHT</span></div>
+
+          <a class="chan" href="mailto:vino71997@gmail.com">
+            <span class="chan-ic">✉</span>
+            <span class="chan-tx"><label class="mono">Email — fastest</label><strong>vino71997@gmail.com</strong></span>
+            <button type="button" class="copy-btn mono" data-copy="vino71997@gmail.com" aria-label="Copy email">COPY</button>
+          </a>
+          <a class="chan" href="tel:+639177092412">
+            <span class="chan-ic">☎</span>
+            <span class="chan-tx"><label class="mono">Phone / SMS</label><strong>09177092412</strong></span>
+            <button type="button" class="copy-btn mono" data-copy="09177092412" aria-label="Copy phone">COPY</button>
+          </a>
+          <div class="chan static">
+            <span class="chan-ic">◎</span>
+            <span class="chan-tx"><label class="mono">Base</label><strong>Quezon City, Philippines</strong><em>On-site & remote support · hospitals & clinics</em></span>
+          </div>
+
+          <div class="sla mono">
+            <div><span>◉</span> URGENT (system down) → same-day triage</div>
+            <div><span>◉</span> STANDARD → reply &lt; 24h</div>
+            <div><span>◉</span> INCLUDE: system, error text, screenshot, user count</div>
+          </div>
+
+          <div class="socials mono">
+            <a href="mailto:vino71997@gmail.com">EMAIL ↗</a>
+            <a href="tel:+639177092412">CALL ↗</a>
+            <a href="#">GITHUB ↗</a>
+            <a href="#">LINKEDIN ↗</a>
+          </div>
+        </aside>
+
+        <!-- Smart form -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-head">
+            <strong>Send a transmission</strong>
+            <span class="mono" id="formStep">30 SEC · NO SPAM</span>
+          </div>
+
+          <div class="pills" role="radiogroup" aria-label="Inquiry type">
+            <button type="button" class="pill active" data-type="Production Support">🚨 Support</button>
+            <button type="button" class="pill" data-type="New Feature">✦ Feature</button>
+            <button type="button" class="pill" data-type="Infra & Network">⚙ Infra</button>
+            <button type="button" class="pill" data-type="Job Opportunity">◎ Job</button>
+          </div>
+
+          <div class="frow">
+            <div class="field">
+              <label for="fName">Your name *</label>
+              <input id="fName" name="name" placeholder="e.g. Dr. Santos" autocomplete="name" />
+              <small class="err" id="eName">Please enter your name (2+ characters).</small>
+            </div>
+            <div class="field">
+              <label for="fEmail">Work email *</label>
+              <input id="fEmail" type="email" name="email" placeholder="you@hospital.com" autocomplete="email" />
+              <small class="err" id="eEmail">Enter a valid email address.</small>
+            </div>
+          </div>
+
+          <div class="frow">
+            <div class="field">
+              <label for="fPhone">Phone <span class="opt">(optional)</span></label>
+              <input id="fPhone" name="phone" inputmode="tel" placeholder="09xx xxx xxxx" autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="fUrg">Urgency *</label>
+              <select id="fUrg" name="urgency">
+                <option value="Standard — reply < 24h" selected>Standard — reply &lt; 24h</option>
+                <option value="Urgent — production down">🔥 Urgent — production down</option>
+                <option value="Planning — new project / role">Planning — new project / role</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="fSubj">Subject *</label>
+            <input id="fSubj" name="subject" placeholder="e.g. LIS result validation error on Ward 3" />
+            <small class="err" id="eSubj">Give it a short subject (4+ characters).</small>
+          </div>
+
+          <div class="field">
+            <div class="lab-row"><label for="fMsg">Details *</label><span class="mono counter" id="msgCount">0 / 1000</span></div>
+            <textarea id="fMsg" name="message" rows="5" maxlength="1000" placeholder="System (LIS / BBIS / Histopath)? What happened, when, error text, how many users affected, screenshots attached where?"></textarea>
+            <small class="err" id="eMsg">Tell me a little more (20+ characters).</small>
+          </div>
+
+          <button class="btn primary magnetic submit-btn" type="submit" id="sendBtn">
+            <span class="btn-label">Transmit Signal ↗</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+
+          <div class="mono form-ok" id="formOk" role="status">
+            <strong>✓ SIGNAL RECEIVED</strong>
+            <span id="okDetail">Thanks — I'll reply within 24 hours.</span>
+            <span class="ok-row">
+              <a id="mailtoFallback" href="mailto:vino71997@gmail.com">Open in your mail app ↗</a>
+              <button type="button" id="sendAnother" class="mono">SEND ANOTHER</button>
+            </span>
+          </div>
+          <p class="mono form-hint">Prefer email? <a href="mailto:vino71997@gmail.com">vino71997@gmail.com</a> · No newsletters, ever.</p>
+        </form>
+      </div>
+      <div class="toast mono" id="toast" role="status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO MODAL -->
+  <div class="modal" id="photoModal" aria-hidden="true" role="dialog" aria-label="Alvin Guambor — contact">
+    <div class="modal-card" role="document">
+      <button class="modal-x" id="modalX" aria-label="Close">✕</button>
+      <img src="profile2.jpg" alt="Alvin Guambor" />
+      <div class="modal-info">
+        <strong>Alvin Guambor</strong>
+        <span class="mono">SUPPORT PROGRAMMER SUPERVISOR · QC, PH</span>
+        <div class="modal-row">
+          <a class="btn primary" href="mailto:vino71997@gmail.com">EMAIL ↗</a>
+          <a class="btn ghost" href="tel:+639177092412">CALL ↗</a>
+        </div>
+        <button class="btn ghost" id="modalMsg" type="button">SEND A MESSAGE →</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer mono">
+  <div class="container foot-grid">
+    <span>© 2026 DEVELOPED BY AG</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
